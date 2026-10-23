@@ -1,6 +1,6 @@
 # CQRLOG QSL Accelerator
 
-A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI or using CTRL+something, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
+A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI or using multiple CTRL+somethings, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
 
 ![Screenshot of CQRLOG QSL Accelerator](screenshot.png)
 
@@ -58,6 +58,4 @@ This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via
 
 *Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.  
 
-4. **Further Processing & Export:** Once you are done marking your QSOs in the terminal, return to the CQRLOG GUI. You can now use the standard CQRLOG QSL export menu to filter, sort, and export your queued QSLs (e.g., to print labels using gLabels or similar software).
-
-
+4. **Further Processing & Export:** Once you are done marking your QSOs in the terminal, return to the CQRLOG GUI. You can now use the standard CQRLOG QSL export menu to filter, sort, auto-add QSL Managers and export your queued QSLs (e.g., to print labels using gLabels or similar software).

@@ -56,6 +56,6 @@ This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via
    * **`U`** *(Undo)* - **Undo changes.** If you made a mistake, this reverts all QSL flags and date stamps of the selected QSO to the exact state it had before the current search.
    * **`ESC`** - Quit the script.
 
-*Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.  
+*Tip:* Band/mode combinations that have already been confirmed in the past (previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.  
 
 4. **Further Processing & Export:** Once you are done marking your QSOs in the terminal, return to the CQRLOG GUI. You can now use the standard CQRLOG QSL export menu to filter, sort, auto-add QSL Managers and export your queued QSLs (e.g., to print labels using gLabels or similar software).

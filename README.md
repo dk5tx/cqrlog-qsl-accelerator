@@ -1,6 +1,6 @@
 # CQRLOG QSL Accelerator
 
-A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI or using multiple CTRL+somethings, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
+A lightning-fast, keyboard-driven terminal tool for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI or using multiple CTRL+somethings, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
 
 ![Screenshot of CQRLOG QSL Accelerator](screenshot.png)
 

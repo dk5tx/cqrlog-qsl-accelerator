@@ -4,9 +4,6 @@ A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently p
 
 ![Screenshot of CQRLOG QSL Accelerator](screenshot.png)
 
-## ⚠️ Important: CQRLOG must be running!
-This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via port 64000). **CQRLOG must be open in the background** so that the database server is active and the script can establish a connection.
-
 ## Prerequisites
 * **Linux** (e.g., Linux Mint, Ubuntu, Debian)
 * **Python 3**
@@ -39,6 +36,9 @@ If you want to process QSL cards for a different logbook (e.g., Log No. 2), open
 # --- DATABASE CONFIGURATION ---
 DB_NAME = 'cqrlog002'  # Change for Log No. 2, 3 etc.
 ```
+
+## ⚠️ Important: CQRLOG must be running!
+This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via port 64000). **CQRLOG must be open in the background** so that the database server is active and the script can establish a connection.
 
 ## Usage
 

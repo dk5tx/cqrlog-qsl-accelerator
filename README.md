@@ -54,8 +54,10 @@ This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via
    * **`S`** *(Send)* - Marks **only to send via bureau** (sets `qsl_s = 'SB'` and today's date). Ideal for band/mode combinations you want to send a card for without logging a received card.
    * **`B`** *(Both)* - Marks **Both** (logs as received + queues to send via bureau).
    * **`U`** *(Undo)* - **Undo changes.** If you made a mistake, this reverts all QSL flags and date stamps of the selected QSO to the exact state it had before the current search.
-   * **`ESC`** - Quit the script.  
-*Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.
+   * **`ESC`** - Quit the script.
+
+*Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.  
+
 4. **Further Processing & Export:** Once you are done marking your QSOs in the terminal, return to the CQRLOG GUI. You can now use the standard CQRLOG QSL export menu to filter, sort, and export your queued QSLs (e.g., to print labels using gLabels or similar software).
 
 

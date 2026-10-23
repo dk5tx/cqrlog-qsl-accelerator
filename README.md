@@ -57,6 +57,3 @@ DB_NAME = 'cqrlog002'  # Change for Log No. 2, 3 etc.
    * **`ESC`** - Quit the script.
 
 *Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.
-
----
-*73 de DK5TX*

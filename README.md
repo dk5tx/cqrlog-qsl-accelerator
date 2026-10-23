@@ -1,6 +1,8 @@
 # CQRLOG QSL Accelerator
 
-A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
+A lightning-fast, keyboard-driven terminal tool (TUI) for Linux to efficiently process incoming paper QSL cards in **CQRLOG**. Instead of clicking through the GUI or using CTRL+something, you can search for callsigns using fuzzy search and set QSL flags for the bureau export with a single keystroke.
+
+![Screenshot of CQRLOG QSL Accelerator](screenshot.png)
 
 ## ⚠️ Important: CQRLOG must be running!
 This script directly accesses CQRLOG's local MySQL/MariaDB database (usually via port 64000). **CQRLOG must be open in the background** so that the database server is active and the script can establish a connection.
@@ -57,4 +59,4 @@ DB_NAME = 'cqrlog002'  # Change for Log No. 2, 3 etc.
 *Tip:* Band/mode combinations that have already been confirmed in the past (whether received by you or previously sent via bureau/direct) are automatically marked with a **`[✓]`** in the search results for easy orientation.
 
 ---
-*vy 73 de DK5TX*
+*73 de DK5TX*

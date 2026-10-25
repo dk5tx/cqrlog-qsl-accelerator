@@ -13,7 +13,7 @@ A lightning-fast, keyboard-driven terminal tool for Linux to efficiently process
 
 1. Download the script via the green "Code" button (Download ZIP) and extract it, or clone the repository directly via the terminal:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/cqrlog-qsl-accelerator.git
+   git clone https://github.com/dk5tx/cqrlog-qsl-accelerator.git
    cd cqrlog-qsl-accelerator
    ```
 
